@@ -1,10 +1,10 @@
 CC=g++
-CFLAGS=-O3
+CFLAGS=-O3 -ggdb3
 EXTRAFLAGS=-lpqxx -lpq
 
 all: test
 
-test: main.cpp exerciser.h exerciser.cpp query_funcs.h query_funcs.cpp
+test: main.cpp exerciser.hpp exerciser.cpp query_funcs.hpp query_funcs.cpp
 	$(CC) $(CFLAGS) -o test main.cpp exerciser.cpp query_funcs.cpp $(EXTRAFLAGS)
 
 clean:

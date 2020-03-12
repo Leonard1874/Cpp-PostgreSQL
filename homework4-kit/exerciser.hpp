@@ -1,7 +1,7 @@
 #include <iostream>
 #include <pqxx/pqxx>
 
-#include "query_funcs.h"
+#include "query_funcs.hpp"
 
 using namespace std;
 using namespace pqxx;
