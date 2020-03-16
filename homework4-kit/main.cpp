@@ -3,7 +3,7 @@
 #include <fstream>
 #include <cstring>
 #include <cstdlib>
-#include "exerciser.hpp"
+#include "exerciser.h"
 
 using namespace std;
 using namespace pqxx;
